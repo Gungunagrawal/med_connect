@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Doctor Appointment System (MedConnect)
 
 A complete MERN stack web application for booking and managing doctor appointments, featuring role-based dashboards for Patients, Doctors, and Admins.
@@ -84,3 +85,6 @@ To access the Admin dashboard, you must register a User with the role `Admin` di
 
 ## API Reference
 Please see the inline code comments in `backend/routes/` for endpoint descriptions, access levels, and methods. All protected routes require a `Bearer Token` passed in the `Authorization` header.
+=======
+# med_connect
+>>>>>>> 662b9c9b234ad124c896d0d1bfdc45dd8878d22f
