@@ -1,0 +1,9 @@
+@echo off
+echo Starting Doctor Appointment System Backend...
+start cmd /k "cd backend && npm run dev"
+
+echo Waiting for backend to initialize...
+timeout /t 5 /nobreak > NUL
+
+echo Starting Doctor Appointment System Frontend and Opening Browser...
+start cmd /k "cd frontend && npm run dev -- --open"
